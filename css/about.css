@@ -1,0 +1,60 @@
+
+.about p{
+    padding-bottom: 10px;
+}
+
+.map-container{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 100%;
+}
+
+iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+
+    padding-bottom: 30px;
+}
+.intro{
+    padding-bottom: 40px;
+}
+.about img{
+    border-radius: 8px;
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+#about a{
+    border: 1px solid white;
+    border-radius: 6px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.cite-upper{
+    text-align: center;
+}
+
+
+/***********!!! Medium devices (landscape tablets, 768px and up) !!!************/
+@media screen and (min-width: 768px) {
+    .intro p{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .intro p:last-child{
+        padding-bottom: 50px;
+    }
+
+    h1{
+        padding-bottom: 20px;
+    }
+}

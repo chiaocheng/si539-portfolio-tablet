@@ -1,0 +1,73 @@
+
+/****** card image ******/
+.card img{
+    border-radius: 6px;
+}
+
+
+
+
+/****** margin/padding start ******/
+
+h2{
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+.cite{
+    color: gray;
+}
+
+.card{
+    padding-bottom: 30px;
+}
+
+.card-grid{
+    margin: 0 auto;
+
+    /* Grid container is here!! */
+    display: grid;
+}
+
+
+.cite-sectioin{
+    padding-bottom: 50px;
+}
+
+.cite-sectioin p{
+    padding-bottom: 0;
+}
+
+#index a{
+    border: 1px solid white;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.nav_item a:active, .nav_item a:focus{
+    text-decoration: underline;
+}
+
+
+
+
+
+/***********!!! Medium devices (landscape tablets, 768px and up) !!!************/
+@media screen and (min-width: 768px) {
+    .card-grid{
+        /* Grid container is here!! */
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px 15px;
+    }
+
+}
+
+/***********!!! Large devices (laptops/desktops, 992px and up) !!!************/
+@media screen and (min-width: 992px) {
+    .card-grid{
+        /* Grid container is here!! */
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 50px 20px;
+    }
+
+}
